@@ -1,0 +1,14 @@
+npm create vite@latest
+
+you can press ok
+if you wana set the project name then youo can otherwise skip
+keep the current folder name
+slesect frame work that is => react
+select the variant =>javaScript
+
+then 
+nmp install
+nmp run dev
+
+
+rafce => react arrow function export component
