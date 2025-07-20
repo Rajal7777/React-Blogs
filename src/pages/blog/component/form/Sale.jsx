@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Product = () => {
+const Sale = () => {
   return (
        <div class="bg-gray-100 dark:bg-gray-800 py-8">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -104,4 +104,4 @@ const Product = () => {
   )
 }
 
-export default Product;
+export default Sale;

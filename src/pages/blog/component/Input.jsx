@@ -17,7 +17,7 @@ const Input = ({ type, onSubmit }) => {
     })
   }
   const handleSubmit = (e) => {
-    e.preventDefault()   //page lali reload hunna bata rokxa
+    e.preventDefault()   //page lai reload hunna bata rokxa (making same as fb)
     onSubmit(data)
   }
 
@@ -45,7 +45,7 @@ return (
                       name="email"
                       type="text"
                       important="true"
-                      required
+          
                       className="peer 
                       placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-rose-600"
                       placeholder="Email address"
@@ -85,7 +85,7 @@ return (
                       id="password"
                       name="password"
                       type="password"
-                      important="true"
+                     
                       required
                       className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-rose-600"
                       placeholder="Password"
@@ -107,7 +107,7 @@ return (
                 </div>
               </div>
               {type === 'Register' ? (
-                    <Link to="/login" style={{color:'blue'}}>Go to login</Link>
+                    <Link to="/login" style={{color:'blue'}}>Login after Register</Link>
               ): (
                     <Link to="/register" style={{color:'red'}} >Go to Register</Link>
               )
